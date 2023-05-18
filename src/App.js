@@ -12,7 +12,8 @@ function App() {
         <Routes>
           <Route path='/login/*' element={<Login />} />
           <Route path='/' element={<GetStarted />} />
-          <Route path='/home' element={<Dashboard />} />
+          <Route path='/home/*' element={<Dashboard />} />
+          <Route path='/alert/:id' element={<Dashboard />} />
         </Routes>
       </div>
     </div>

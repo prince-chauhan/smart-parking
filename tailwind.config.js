@@ -13,9 +13,16 @@ module.exports = {
         'btn-org-start': '#FFBA82',
         'btn-org-end': '#FF8B2D',
         'dark-bc': '#15142a',
+        'btn-red-start': '#ff9090',
+        'btn-red-end': '#ff4f4f',
+        'btn-green-start': '#62dd00 ',
+        'btn-green-end': '#047800 ',
       },
       blur: {
         '2': '2px'
+      },
+      grayscale: {
+        '0.8': '80%'
       }
     },
   },
